@@ -68,7 +68,7 @@ if __name__ == "__main__":
     unique_id = uuid.uuid4()
 
     level = generate_level(
-        level_id=unique_id, min_bobbins=2, max_bobbins=3, bobbin_grid_size=(3, 4)
+        level_id=unique_id, min_bobbins=5, max_bobbins=5, bobbin_grid_size=(5, 5)
     )
     save_level_to_json(level)
     render_level_to_html(level)
